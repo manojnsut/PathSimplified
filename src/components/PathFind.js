@@ -84,9 +84,11 @@ export default function PathFind() {
 
         const startNode = grid[NODE_START_ROW][NODE_START_COL];
         const endNode = grid[NODE_END_ROW][NODE_END_COL];
-        let path = Astar(startNode, endNode);
+
         startNode.isWall = false;
-        endNode.isWall = false;
+        endNode.isWall = false; 
+
+        let path = Astar(startNode, endNode);
 
         setPath(path.path);
         setVisitedNodes(path.visitedNodes);
