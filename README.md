@@ -15,6 +15,8 @@ In maps the A* algorithm is used to calculate the shortest distance between the 
   <img src="https://github.com/manojnsut/PathSimplified/blob/main/preview/img1.png"  />
 </p>
 
+&nbsp;
+
 <p float="left">
   <img src="https://github.com/manojnsut/PathSimplified/blob/main/preview/img2.png" />
 </p>
