@@ -9,10 +9,13 @@ const cols = 40;
 const rows = 10;
 
 
-const NODE_START_ROW = 0;
-const NODE_START_COL = 0;
-const NODE_END_ROW = rows - 1;
-const NODE_END_COL = cols - 1;
+const NODE_START_ROW = Math.floor(Math.random() * 10);;
+const NODE_START_COL = Math.floor(Math.random() * 40);;
+
+const NODE_END_ROW = Math.floor(Math.random() * 10);;
+const NODE_END_COL = Math.floor(Math.random() * 40);;
+
+
 
 export default function PathFind() {
 
@@ -111,6 +114,8 @@ export default function PathFind() {
 
     // GRID with NODES
     const gridWithNodes = (
+
+        
         <div>
             {Grid.map((row, rowIndex) => {
                 return (
@@ -173,12 +178,6 @@ export default function PathFind() {
             
                 <div style={{ paddingBottom: "50px" }}>
                     {gridWithNodes}
-                </div>
-
-                <div style={{ paddingBottom: "30px", paddingRight: "30px" }}>
-                    <p id="rcorners1">
-                        The way that the algorithm makes its decisions is by taking the <span style={{ color: "darkblue" }}>f-value</span> into account. The algorithm selects the <span style={{ color: "darkblue" }}>smallest f-valued cell</span> and moves to that cell. This process continues until the algorithm reaches its goal cell.
-                </p>
                 </div>
               
             </div>
