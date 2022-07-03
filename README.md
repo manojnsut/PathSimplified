@@ -24,9 +24,13 @@ In maps the A* algorithm is used to calculate the shortest distance between the 
 
 ## Technology Stack
 
-- HTML 
-- CSS 
-- JavaScript
-- Heroku
-- React Js
+#### *Frontend*
+
+ - React Js
+ - JavaScript
+
+#### *Backend*
+
+ - Node.js
+ - Heroku
 
