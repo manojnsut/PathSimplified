@@ -5,8 +5,8 @@ import "./PathFind.css";
 import Navbar from './Navbar/Navbar';
 import Footer from './Footer/Footer';
 
-const cols = 13;
-const rows = 8;
+const cols = 40;
+const rows = 10;
 
 
 const NODE_START_ROW = 0;
@@ -24,6 +24,7 @@ export default function PathFind() {
         initiazeGrid();
     }, []);
 
+    //ALERT 
 
 
     // SPOT constructor
@@ -125,11 +126,16 @@ export default function PathFind() {
     )
 
     const animateShortestPath = (shortestPathNodes) => {
+
         for (let i = 0; i < shortestPathNodes.length; i++) {
             setTimeout(() => {
                 const node = shortestPathNodes[i];
                 document.getElementById(`node-${node.x}-${node.y}`).className = "node node-shortest-path";
             }, 10 * i)
+        }
+        
+        if (shortestPathNodes.length == 0) {
+             alert("NO PATH FOUND") ; 
         }
     }
 
@@ -164,6 +170,7 @@ export default function PathFind() {
                 <button onClick={visualizePath}>
                     Visualize Path
                 </button>
+            
                 <div style={{ paddingBottom: "50px" }}>
                     {gridWithNodes}
                 </div>
@@ -173,6 +180,7 @@ export default function PathFind() {
                         The way that the algorithm makes its decisions is by taking the <span style={{ color: "darkblue" }}>f-value</span> into account. The algorithm selects the <span style={{ color: "darkblue" }}>smallest f-valued cell</span> and moves to that cell. This process continues until the algorithm reaches its goal cell.
                 </p>
                 </div>
+              
             </div>
 
             <Footer />
