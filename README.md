@@ -1,5 +1,6 @@
 # Path Simplified
-A web app to find the path between start and end point on the grid using A* algorithm
+
+PathSimplified is a web application, whichn gives visual representation of shortest path between any initial and final state using A* algorithm. 
 
 ## A* algorithm
 
