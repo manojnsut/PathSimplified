@@ -174,9 +174,22 @@ export default function PathFind() {
                         In maps the A* algorithm is used to calculate the shortest distance between the source (initial state) and the destination (final state).
                 </p>
                 </div>
-                <button onClick={visualizePath}>
-                    Visualize Path
-                </button>
+
+                <div>
+                    <h2 className="tab">  
+                        <button onClick={visualizePath}>
+                            Visualize Path
+                         </button>
+
+                         Source &nbsp;
+                         <button className='start'></button> 
+                        
+                         &nbsp;
+
+                        Destination &nbsp;
+                         <button className='end'> </button>
+                    </h2>
+                </div>
             
                 <div style={{ paddingBottom: "50px" }}>
                     {gridWithNodes}

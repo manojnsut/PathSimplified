@@ -1,5 +1,7 @@
 # Path Simplified
-A web app to find the path between start and end point on the grid using A* algorithm
+
+PathSimplified is a web application that gives a visual representation of the shortest path between any initial and final state using the A* algorithm.
+
 
 ## A* algorithm
 
@@ -24,9 +26,13 @@ In maps the A* algorithm is used to calculate the shortest distance between the 
 
 ## Technology Stack
 
-- HTML 
-- CSS 
-- JavaScript
-- Replit
-- React Js
+#### *Frontend*
+
+ - React Js
+ - JavaScript
+
+#### *Backend*
+
+ - Node.js
+ - Heroku
 

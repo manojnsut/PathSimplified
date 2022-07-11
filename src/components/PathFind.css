@@ -30,6 +30,40 @@ button {
     box-shadow: 0 0 2rem gray;
   }
 
+  .start {
+    margin: 30px;
+    margin-left: 0;
+    font-size: 18px;
+    font-weight: bold;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 0px 2px rgba (0, 0, 0, 0.3);
+    background: #FFE162;
+    cursor: pointer;
+    color: white;
+  }
+
+  .end {
+    margin: 30px;
+    margin-left: 0;
+    font-size: 18px;
+    font-weight: bold;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 0px 2px rgba (0, 0, 0, 0.3);
+    background: #9EDE73;
+    cursor: pointer;
+    color: white;
+  }
+  .tab {
+    color: white;
+    font-size: 20px;
+  }
+
   #rcorners1 {
     border-radius: 25px;
     border: 2px solid rgb(255, 165, 0);
