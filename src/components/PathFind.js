@@ -142,7 +142,7 @@ export default function PathFind() {
         }
         
         if (shortestPathNodes.length == 0) {
-             alert("There is no path!!") ; 
+             alert("There is no path!!!") ; 
         }
     }
 
