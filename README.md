@@ -1,6 +1,7 @@
 # Path Simplified
 
-PathSimplified is a web application, whichn gives visual representation of shortest path between any initial and final state using A* algorithm. 
+PathSimplified is a web application that gives a visual representation of the shortest path between any initial and final state using the A* algorithm.
+
 
 ## A* algorithm
 
