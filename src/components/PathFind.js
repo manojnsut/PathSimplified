@@ -47,7 +47,7 @@ export default function PathFind() {
         this.nbrs = [];
         this.isWall = false;
 
-        if (Math.random(1) < 0.36) {
+        if (Math.random(1) < 0.3) {
             this.isWall = true;
         }
 
