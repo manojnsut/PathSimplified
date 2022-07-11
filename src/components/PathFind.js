@@ -47,7 +47,7 @@ export default function PathFind() {
         this.nbrs = [];
         this.isWall = false;
 
-        if (Math.random(1) < 0.2) {
+        if (Math.random(1) < 0.36) {
             this.isWall = true;
         }
 
@@ -142,7 +142,7 @@ export default function PathFind() {
         }
         
         if (shortestPathNodes.length == 0) {
-             alert("NO PATH FOUND") ; 
+             alert("There is no path!!!") ; 
         }
     }
 
